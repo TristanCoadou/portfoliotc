@@ -1,0 +1,95 @@
+#cunavbar{
+	padding-left: 60%;
+	background-color :#302B2B;
+	font-size: 20px; /* Taille de police plus grande */
+}
+
+#cunavbar .nav-link {
+    color: #FFF; 
+}
+
+#cunavbar .nav-link:hover {
+    color: #4CAF50; 
+	font-size: 25px;
+}
+.container {
+    max-width: 1200px; /* Ajustez cette valeur selon vos besoins */
+    margin: auto; /* Centre le conteneur */
+    padding: 20px;
+}
+
+body{
+	background-color: #4B5A39
+}
+
+/* Styles pour réduire la taille de l'image */
+.image {
+	margin-top:10%;
+    width: 100%; /* Taille maximale de l'image en pixels */
+    height: auto; /* Pour conserver les proportions de l'image */
+}
+
+/* Styles pour la zone de texte */
+.scrolling-text {
+	margin-top:10%;
+    width: 100%; /* Largeur de la zone de texte */
+    height: 62%; /* Hauteur de la zone de texte */
+    overflow-y: scroll; /* Activer la barre de défilement verticale */
+    padding: 10px; /* Espacement interne */
+    font-size: 16px; /* Taille de police */
+    line-height: 1.6; /* Hauteur de ligne */
+    margin-left: 20px; /* Décalage vers la gauche */
+}
+body {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* 
+---------------------------------------------
+Footer
+--------------------------------------------- 
+*/
+
+footer {
+    background-color: #333; /* Couleur de fond sombre pour le footer */
+    color: white; /* Texte en blanc pour contraster avec le fond sombre */
+    padding: 20px 0; /* Espacement vertical à l'intérieur du footer */
+    font-family: 'Arial', sans-serif; /* Police de caractères uniforme */
+}
+
+.footer-logo em {
+    font-style: normal;
+    color: #4CAF50; /* Couleur verte pour l'élément em dans le logo, pour une touche de design */
+}
+
+.footer-logo span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer h4 {
+    border-bottom: 1px solid #555; /* Ligne sous le titre pour le distinguer */
+    padding-bottom: 10px; /* Espacement sous le titre */
+    margin-bottom: 20px; /* Espacement avant la liste */
+}
+
+footer a {
+    color: #ffffff; /* Couleur des liens */
+    text-decoration: none; /* Enlève le soulignement des liens */
+    transition: color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+footer a:hover {
+    color: #4CAF50; /* Couleur lors du survol du lien, assortie au logo */
+}
+
+footer ul {
+    list-style-type: none; /* Enlève les puces de la liste */
+    padding: 0; /* Enlève le padding par défaut des listes */
+}
+
+footer ul li {
+    padding-bottom: 8px; /* Espacement entre les éléments de la liste */
+}

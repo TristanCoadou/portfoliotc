@@ -1,0 +1,185 @@
+#cunavbar{
+	padding-left: 60%;
+	background-color :#302B2B;
+	font-size: 20px; /* Taille de police plus grande */
+}
+
+#cunavbar .nav-link {
+    color: #FFF; 
+}
+
+#cunavbar .nav-link:hover {
+    color: #4CAF50; 
+	font-size: 25px;
+}
+
+/* Styles de base */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #000;
+  background-color: #4B5A39;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Mise en page principale */
+main.container {
+  max-width: 1200px; /* largeur maximale du contenu */
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+             color: white; /* Texte blanc */
+            font-weight: bold;
+            text-shadow: 
+                -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                -1px  1px 0 #000,
+                 1px  1px 0 #000; /* Ombres noires autour du texte */
+}
+
+/* Mise en page des colonnes pour le texte et les images */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 15px;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+}
+
+/* Styles supplémentaires pour les sous-titres et les paragraphes */
+h2 {
+  color: #000;  /* vert pour les sous-titres */
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #000; /* gris foncé pour le texte */
+}
+
+/* Ajout de styles pour les liens dans la galerie */
+.gallery-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit; /* Assure que les liens n'héritent pas des couleurs par défaut des hyperliens */
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* CSS personnalisé pour rendre la page responsive */
+
+/* Pour ajuster le contenu principal en fonction de la taille de l'écran */
+/* Pour rendre l'image responsive */
+body {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Pour rendre l'image responsive */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pour rendre le texte dans les colonnes s'aligner correctement sur les petits écrans */
+.col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* Pour rendre la police plus lisible sur les petits écrans */
+h1, h2, p, .justifier {
+    font-size: 16px;
+}
+
+/* Pour ajuster la navigation sur les petits écrans */
+.navbar-collapse {
+    flex-basis: 100%;
+    align-items: flex-start;
+}
+
+/* 
+---------------------------------------------
+Footer
+--------------------------------------------- 
+*/
+
+footer {
+    background-color: #333; /* Couleur de fond sombre pour le footer */
+    color: white; /* Texte en blanc pour contraster avec le fond sombre */
+    padding: 20px 0; /* Espacement vertical à l'intérieur du footer */
+    font-family: 'Arial', sans-serif; /* Police de caractères uniforme */
+}
+
+.footer-logo em {
+    font-style: normal;
+    color: #4CAF50; /* Couleur verte pour l'élément em dans le logo, pour une touche de design */
+}
+
+.footer-logo span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer h4 {
+    border-bottom: 1px solid #555; /* Ligne sous le titre pour le distinguer */
+    padding-bottom: 10px; /* Espacement sous le titre */
+    margin-bottom: 20px; /* Espacement avant la liste */
+}
+
+footer a {
+    color: #ffffff; /* Couleur des liens */
+    text-decoration: none; /* Enlève le soulignement des liens */
+    transition: color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+footer a:hover {
+    color: #4CAF50; /* Couleur lors du survol du lien, assortie au logo */
+}
+
+footer ul {
+    list-style-type: none; /* Enlève les puces de la liste */
+    padding: 0; /* Enlève le padding par défaut des listes */
+}
+
+footer ul li {
+    padding-bottom: 8px; /* Espacement entre les éléments de la liste */
+}

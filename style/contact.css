@@ -1,0 +1,109 @@
+#cunavbar{
+	padding-left: 60%;
+	background-color :#302B2B;
+	font-size: 20px; /* Taille de police plus grande */
+}
+
+#cunavbar .nav-link {
+    color: #FFF; 
+}
+
+#cunavbar .nav-link:hover {
+    color: #4CAF50; 
+	font-size: 25px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/link.png"); /* Chemin de l'image */
+    background-size: cover; /* Couvrir toute la surface */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+	color:#FFF;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #000;
+
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+    border: none; /* Supprime la bordure par défaut des fieldset */
+    margin-bottom: 20px; /* Espacement entre chaque champ */
+}
+
+input, textarea {
+    width: 100%; /* Assure que les champs prennent toute la largeur disponible */
+    padding: 10px; /* Ajoute un peu de padding pour le confort de frappe */
+    border: 1px solid #ccc; /* Bordure subtile */
+    border-radius: 5px; /* Coins arrondis pour les champs de texte */
+	margin:2%;
+}
+
+button.main-dark-button {
+    background-color: #333; /* Couleur de fond pour le bouton */
+    color: white; /* Texte blanc pour le bouton */
+    padding: 10px 20px; /* Padding confortable */
+    border: none; /* Pas de bordure pour le bouton */
+    cursor: pointer; /* Curseur de pointeur pour indiquer qu'il est cliquable */
+    transition: background-color 0.3s; /* Transition douce pour le survol */
+}
+
+button{
+	margin-bottom:2%;
+}
+
+button.main-dark-button:hover {
+    background-color: #555; /* Changement de couleur au survol */
+}
+
+
+/* 
+---------------------------------------------
+Footer
+--------------------------------------------- 
+*/
+
+footer {
+    background-color: #333; /* Couleur de fond sombre pour le footer */
+    color: white; /* Texte en blanc pour contraster avec le fond sombre */
+    padding: 20px 0; /* Espacement vertical à l'intérieur du footer */
+    font-family: 'Arial', sans-serif; /* Police de caractères uniforme */
+}
+
+.footer-logo em {
+    font-style: normal;
+    color: #4CAF50; /* Couleur verte pour l'élément em dans le logo, pour une touche de design */
+}
+
+.footer-logo span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer h4 {
+    border-bottom: 1px solid #555; /* Ligne sous le titre pour le distinguer */
+    padding-bottom: 10px; /* Espacement sous le titre */
+    margin-bottom: 20px; /* Espacement avant la liste */
+}
+
+footer a {
+    color: #ffffff; /* Couleur des liens */
+    text-decoration: none; /* Enlève le soulignement des liens */
+    transition: color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+footer a:hover {
+    color: #4CAF50; /* Couleur lors du survol du lien, assortie au logo */
+}
+
+footer ul {
+    list-style-type: none; /* Enlève les puces de la liste */
+    padding: 0; /* Enlève le padding par défaut des listes */
+}
+
+footer ul li {
+    padding-bottom: 8px; /* Espacement entre les éléments de la liste */
+}

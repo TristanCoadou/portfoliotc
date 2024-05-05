@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/projet.jpg"); /* Chemin de l'image */
+    background-size: cover; /* Couvrir toute la surface */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+	color:#FFF;
+}
+#cunavbar{
+	padding-left: 60%;
+	background-color :#302B2B;
+	font-size: 20px; /* Taille de police plus grande */
+}
+
+#cunavbar .nav-link {
+    color: #FFF; 
+}
+
+#cunavbar .nav-link:hover {
+    color: #4CAF50; 
+	font-size: 25px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    max-width: 100%;
+    height: auto;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+#projet{
+
+
+            color: white; /* Texte blanc */
+            font-weight: bold;
+            text-shadow: 
+                -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                -1px  1px 0 #000,
+                 1px  1px 0 #000; /* Ombres noires autour du texte */
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+	margin-top:3%;
+    width: 60%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .gallery-item {
+        width: 70%;
+    }
+}
+
+
+/* 
+---------------------------------------------
+Footer
+--------------------------------------------- 
+*/
+
+footer {
+    background-color: #333; /* Couleur de fond sombre pour le footer */
+    color: white; /* Texte en blanc pour contraster avec le fond sombre */
+    padding: 20px 0; /* Espacement vertical à l'intérieur du footer */
+    font-family: 'Arial', sans-serif; /* Police de caractères uniforme */
+}
+
+.footer-logo em {
+    font-style: normal;
+    color: #4CAF50; /* Couleur verte pour l'élément em dans le logo, pour une touche de design */
+}
+
+.footer-logo span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer h4 {
+    border-bottom: 1px solid #555; /* Ligne sous le titre pour le distinguer */
+    padding-bottom: 10px; /* Espacement sous le titre */
+    margin-bottom: 20px; /* Espacement avant la liste */
+}
+
+footer a {
+    color: #ffffff; /* Couleur des liens */
+    text-decoration: none; /* Enlève le soulignement des liens */
+    transition: color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+footer a:hover {
+    color: #4CAF50; /* Couleur lors du survol du lien, assortie au logo */
+}
+
+footer ul {
+    list-style-type: none; /* Enlève les puces de la liste */
+    padding: 0; /* Enlève le padding par défaut des listes */
+}
+
+footer ul li {
+    padding-bottom: 8px; /* Espacement entre les éléments de la liste */
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: Voga;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/acceuil.jpg"); /* Chemin de l'image */
+    background-size: cover; /* Couvrir toute la surface */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+	font-size: 36px; /* Taille de police plus grande */
+	color:#FFF;
+}
+body {
+    width: 100%; /* Pleine largeur par défaut */
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 720px; /* Taille spécifique sur les écrans moyens */
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        width: 960px; /* Taille spécifique sur les grands écrans */
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        width: 1140px; /* Taille spécifique sur les très grands écrans */
+    }
+}
+		
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 10%;
+	margin-right:40%;
+}
+#text2{
+	margin-left:25%;
+}
+
+#bouton a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: inherit; /* Utilise la couleur du texte héritée */
+    border: 3px solid #FFF; /* Ajoute une bordure de 1px solide autour du lien */
+    padding: 5px 10px; /* Ajoute un espacement à l'intérieur du lien */
+	margin-left:30%;
+	
+}
+
+#bouton a:hover {
+    color: inherit; /* Change la couleur du texte au survol */
+}

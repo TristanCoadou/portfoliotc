@@ -1,0 +1,137 @@
+#cunavbar{
+	padding-left: 60%;
+	background-color :#302B2B;
+	font-size: 20px; /* Taille de police plus grande */
+}
+
+#cunavbar .nav-link {
+    color: #FFF; 
+}
+
+#cunavbar .nav-link:hover {
+    color: #4CAF50; 
+	font-size: 25px;
+}
+
+/* Styles de base */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #000;
+  background-color: #4B5A39;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Mise en page principale */
+main.container {
+  max-width: 1200px; /* largeur maximale du contenu */
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+             color: white; /* Texte blanc */
+            font-weight: bold;
+            text-shadow: 
+                -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                -1px  1px 0 #000,
+                 1px  1px 0 #000; /* Ombres noires autour du texte */
+}
+
+/* Mise en page des colonnes pour le texte et les images */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 15px;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+}
+
+/* Styles supplémentaires pour les sous-titres et les paragraphes */
+h2 {
+  color: #000;  /* vert pour les sous-titres */
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #000; /* gris foncé pour le texte */
+}
+
+/* Ajout de styles pour les liens dans la galerie */
+.gallery-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit; /* Assure que les liens n'héritent pas des couleurs par défaut des hyperliens */
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* CSS personnalisé pour rendre la page responsive */
+
+/* Pour ajuster le contenu principal en fonction de la taille de l'écran */
+/* Pour rendre l'image responsive */
+body {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Pour rendre l'image responsive */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pour rendre le texte dans les colonnes s'aligner correctement sur les petits écrans */
+.col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* Pour rendre la police plus lisible sur les petits écrans */
+h1, h2, p, .justifier {
+    font-size: 16px;
+}
+
+/* Pour ajuster la navigation sur les petits écrans */
+.navbar-collapse {
+    flex-basis: 100%;
+    align-items: flex-start;
+}
